@@ -1,0 +1,8 @@
+{
+  "include": [
+    "schemas/**/*.avsc"
+  ],
+  "exclude": [
+    "schemas/excluded/**/*.avsc"
+  ]
+}

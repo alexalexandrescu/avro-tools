@@ -1,0 +1,18 @@
+{
+  "type": "record",
+  "name": "User",
+  "fields": [
+    {
+      "name": "id",
+      "type": "int"
+    },
+    {
+      "name": "name",
+      "type": "strng" // Intentional typo in type name
+    },
+    {
+      // Missing 'type' for the field
+      "name": "email"
+    }
+  ]
+}
