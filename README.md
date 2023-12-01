@@ -1,7 +1,7 @@
 # Avro Tools CLI
 
 ## Description
-Avro Tools CLI is a command-line interface for validating and converting Avro schemas. Built with Node.js and Yargs, it offers a basic yet opinionated way to manage Avro schema files.
+Avro Tools CLI is a command-line interface for validating and converting [Avro schemas](https://avro.apache.org/docs/#schemas). Built with Node.js and Yargs, it offers a basic yet opinionated way to manage Avro schema files.
 
 ## Features
 - Validate Avro schemas.
@@ -56,9 +56,14 @@ Create an avroConfig.json file:
 }
 ```
 
-## Development
-Node.js Version: xx.xx
-ESM Modules
+## Requirements
+- Node.js version 14 or higher is required for this tool, as it relies on ECMAScript Modules (ESM) which have stable support from version 14 onwards.
+
+## Testing
+The test suite for Avro Tools CLI is currently a work in progress. We use Jest for our testing framework, but please note that Jest's support for ECMAScript Modules (ESM) is still experimental. As a result, some tests may not yet achieve full coverage or may exhibit unexpected behavior. We are actively working to improve the test suite as the tooling evolves.
+
+For the latest information on Jest's ESM support, see their [official documentation](https://jestjs.io/docs/ecmascript-modules).
+
 
 ## Local Setup
 ```bash

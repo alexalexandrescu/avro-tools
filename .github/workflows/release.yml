@@ -31,9 +31,6 @@ jobs:
       - name: Verify the integrity of provenance attestations and registry signatures for installed dependencies
         run: npm audit signatures
 
-      - name: Test
-        run: npm test
-
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
